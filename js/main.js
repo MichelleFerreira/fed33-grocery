@@ -31,7 +31,10 @@ function addToList(qtyIn, nameIn, deptIn) {
 
 // 3. Modify the printItem function so that it prints from the array
 
-
+function printTheList() {
+  myList.map ((i) => <li> ${item.qty} ${item.name}(&{item.dept})</li>)
+  elShoppingList.innerHTML = htmlList.join ('');
+}
 
 
 // Rocco will:
